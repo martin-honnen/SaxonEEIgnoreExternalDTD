@@ -5,8 +5,6 @@ import com.saxonica.config.StreamingTransformerFactory;
 import net.sf.saxon.lib.Feature;
 
 import javax.xml.transform.Templates;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
