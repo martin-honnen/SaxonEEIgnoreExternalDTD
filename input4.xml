@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Book SYSTEM "http://doesnotexist.com/BookProduct_3.0_short.dtd">
+<Book xmlns="http://example.org/3.0/short" release="3.0">
+    <Entry>...</Entry>
+</Book>
+

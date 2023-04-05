@@ -5,9 +5,11 @@ import com.saxonica.config.StreamingTransformerFactory;
 import net.sf.saxon.lib.Feature;
 
 import javax.xml.transform.Templates;
+import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
+import java.io.File;
 
 public class Main {
     public static void main(String[] args) throws TransformerException {
@@ -28,5 +30,8 @@ public class Main {
 
         streamingTemplates.newTransformer().transform(new StreamSource("input3.xml"), new StreamResult("result3.xml"));
 
+        streamingTemplates = streamingTransformerFactory.newTemplates(new StreamSource("xslt-test2.xsl"));
+
+        streamingTemplates.newTransformer().transform(new StreamSource("input4.xml"), new StreamResult(new File("result4.xml")));
     }
 }
