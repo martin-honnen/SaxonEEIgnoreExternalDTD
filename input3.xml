@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE root SYSTEM "example1.dtd">
+<root>
+    <item id="item1" cat="cat1" div="div1"/>
+    <item id="item2" cat="cat1" div="div2"/>
+    <item id="item3" cat="cat2" div="div1"/>
+    <item id="item4" cat="cat1" div="div2"/>
+    <item id="item5" cat="cat3" div="div1"/>
+    <item id="item6" cat="cat2" div="div2"/>
+</root>

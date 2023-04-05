@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <group cat="cat1" div="">
+      <item id="item1" cat="cat1" div="div1"/>
+      <item id="item2" cat="cat1" div="div2"/>
+      <item id="item4" cat="cat1" div="div2"/>
+   </group>
+   <group cat="div1" div="">
+      <item id="item1" cat="cat1" div="div1"/>
+      <item id="item3" cat="cat2" div="div1"/>
+      <item id="item5" cat="cat3" div="div1"/>
+   </group>
+   <group cat="div2" div="">
+      <item id="item2" cat="cat1" div="div2"/>
+      <item id="item4" cat="cat1" div="div2"/>
+      <item id="item6" cat="cat2" div="div2"/>
+   </group>
+   <group cat="cat2" div="">
+      <item id="item3" cat="cat2" div="div1"/>
+      <item id="item6" cat="cat2" div="div2"/>
+   </group>
+   <group cat="cat3" div="">
+      <item id="item5" cat="cat3" div="div1"/>
+   </group>
+</root>
+<!--Run with SAXON EE 12.1 at 2023-04-05T12:59:10.08+02:00-->
